@@ -1,6 +1,7 @@
+#include <iostream> 
 #include "vector.hpp"
 #include <cstddef>
-#include <iostream> 
+
 #include <ratio>
 
 bool test1()
@@ -20,4 +21,3 @@ int main()
     for(size_t i = 0; i < count; ++i) {
         std::cout << tests[i]() << ": " << i << "\n";
     }
-}
